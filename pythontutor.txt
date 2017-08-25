@@ -1,0 +1,14 @@
+from http://pythontutor.com
+
+Generate permanent link 
+http://pythontutor.com/visualize.html#code=function%20getIndexToIns%28arr,%20num%29%20%7B%0A%20%20//%20Find%20my%20place%20in%20this%20sorted%20array.%0Aarr.push%28num%29%3B%0Aarr.sort%28function%28a,%20b%29%20%7B%0A%20%20return%20a%20-%20b%3B%0A%7D%29%3B%0A%20%20console.log%28arr%29%3B%0A%20%20return%20%28arr.indexOf%28num%29%29%3B%0A%7D%0A%0Aconsole.log%28getIndexToIns%28%5B3,%2010,%205%5D,%203%29%29%3B%0A&cumulative=false&curInstr=19&heapPrimitives=false&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false
+
+Generate shortened link 
+https://goo.gl/Hyj1MR
+
+Click the button above to create a permanent link to your visualization. To report a bug, paste the link along with a brief error description in an email addressed to philip@pgbovine.net
+
+
+https://goo.gl/Hyj1MR
+
+
