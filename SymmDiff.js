@@ -35,5 +35,5 @@ function sym(args) {
     
 }
 
-// sym([1, 2, 3], [5, 2, 1, 4]);
-sym([1, "calf", 3, "piglet"], [1, "calf", 3, 4]);
+sym([1, 2, 3], [5, 2, 1, 4]);
+// sym([1, "calf", 3, "piglet"], [1, "calf", 3, 4]);
