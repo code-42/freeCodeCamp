@@ -3,24 +3,23 @@ function sym(args) {
   console.log("arguments.length == ", arguments.length);
   console.log("arguments object == ", arguments);
   
-    var args = Array.from(arguments);
+    args = Array.from(arguments);
 
-    function symDiff(arrayOne, arrayTwo) {
+    function symDiff(arrayA, arrayB) {
         var result = [];
         console.log("\n");
-        console.log("inside symDiff");
-        console.log("arrayOne == ", arrayOne);
-        console.log("arrayTwo == ", arrayTwo);
+        console.log("arrayA == ", arrayA);
+        console.log("arrayB == ", arrayB);
 
-        arrayOne.forEach(function(item) {
-            if (arrayTwo.indexOf(item) < 0 && result.indexOf(item) < 0) {
+        arrayA.forEach(function(item) {
+            if (arrayB.indexOf(item) < 0 && result.indexOf(item) < 0) {
                 result.push(item);
                 console.log("result.1(" + item + ") == ", result);
             }
         });
 
-        arrayTwo.forEach(function(item) {
-            if (arrayOne.indexOf(item) < 0 && result.indexOf(item) < 0) {
+        arrayB.forEach(function(item) {
+            if (arrayA.indexOf(item) < 0 && result.indexOf(item) < 0) {
                 result.push(item);
                 console.log("result.2(" + item + ") == ", result);
             }
